@@ -1,0 +1,262 @@
+/********************** Resets **********************/	
+*, html, body, ul, li, h1, h2, h3, h4, h5, h6, form { margin: 0; padding: 0; }
+ul, li { list-style: none; }
+img { border: none; }
+
+body { 
+	text-align: center;
+	margin: 15px 0;
+	font-family: Arial;
+	font-size: 0.8em;
+	color: #2F2F2F;
+	}
+
+/********************** Links **********************/
+a { color: #2F2F2F; text-decoration: none; }
+a:hover { text-decoration: underline;  }
+html > body #top-head a { text-decoration: none; padding: 5px 7px; }
+	#top-head a { text-decoration: none; padding: 4px;}
+#top-head a:hover { background: #FDF4D2; border-bottom: 1px solid #F3E29C; }
+#popularsearch a, #browsesearch a, #findjobs a, #jobsearch a { line-height: 20px; font-size: 96%; color: #2280D7; }
+#browsesearch a:hover, #popularsearch a:hover, #findjobs a:hover , #jobsearch a:hover { color: #3078BA; }
+#footer a { color: #666; }
+.box-ul a:hover, .box-ul2 a:hover { text-decoration: none; }
+
+/********************** Typography **********************/	
+h1  { font-size: 250%; }
+h2  { font-size: 200%; }
+h3  { font-size: 120%; }
+h4  { font-size: 110%; }
+h5  { font-size: 90%; }
+h6  { font-size: 80%; }
+.orangetext { color: #F1820F; }
+.fontgeorgia { font-family: Georgia; }
+.fontlucida { font-family: Lucida Sans; }
+.darkgrey { color: #666; }
+.pagehead { margin: 10px 0; color: #278BD2; font-weight: normal; padding: 0 0 10px 0; border-bottom: 1px solid #C3E1F6; }
+.subpagehead { color: #F79D1C; margin: 10px 0; }
+.greentext { color: #AAD823; } 
+.browntext { color: #BBBC9C; }
+.bluetext { color: #278BD2; }
+.smallesttxt { font-size: 80%; }
+.redtext { color: red; }
+.nicered { color: #EC3C2C; }
+.niceblue { color: #1899C9; }
+.smallesttxt2 { font-size: 70%; }
+.boldtxt { font-weight: bold; }
+.biggertxt { font-size: 140%; }
+.greytxt1 { font-size: 90%; color: #7C8085; }
+
+#search h3, #search h5 { display: inline; }
+#search h5 { font-weight: normal; }
+#jobsearch h2 { font-weight: normal; color: #F47B06; }
+#jobsearch p { line-height: 1.8em; font-size: 110%; }
+#jobsearch h3 { width: 100%; padding: 0 0 10px 0; display: inline; margin: 20px 0 5px 0; color: #666; border-bottom: 1px solid #ccc; }
+#jobsearch .prslink { font-weight: normal; font-size: 85%; margin: 0; padding-left: 215px; }
+
+#popularsearch h3 { background: #ECFDD2; margin: 0 0 10px 0; color: #666; font-weight: normal; padding: 5px 10px; border-bottom: 3px solid #A2E539; }
+#browsesearch h3 { width: 500px; background: #FDDCE5; margin: 0; color: #666; font-weight: normal; padding: 5px 10px; } 
+#browsesearch h5, #popularsearch h5, #advsearch h5 { letter-spacing: -1px; text-transform: uppercase; font-weight: normal; color: #666; margin: 2px 0 0 0; }
+#popularsearch h4  { font-family: Tahoma; font-size: 160%; color: #8AC331; } 
+#browsesearch h4 { font-family: Tahoma; font-size: 160%; color: #EC5D82; }
+#advsearch h4 { font-family: Tahoma; font-size: 160%; color: #F0AB18; }
+
+#advsearch h3 { background: #FFF0D1; color: #666; font-weight: normal; padding: 5px 10px; border-bottom: 3px solid #F0AB18; }
+#postjob h5 { margin: 2px 0 0 0; color: #666; }	
+
+.recruithead  { font-weight: normal; color: #96C56F; padding: 0 0 5px 0; }
+.recruitsubhead { font-size: 190%; font-family: Georgia; font-style: italic; font-weight: normal; margin: 10px 0; color: #1899C9; }
+
+.intro-rec h3 { font-size: 138%; margin: 5px 0 10px 0; padding: 0 0 10px 0; border-bottom: 1px solid #B9BEA5; }
+.intro-rec p { margin: 10px 0; font-size: 120%; }	
+
+
+/********************** Layout & its elements **********************/	
+#container { width: 950px; margin: 0 auto; text-align: left; }
+#top-head { text-align: right; padding: 0 5px; }
+#header { }
+	#header h1 a {
+		display:block;
+		width: 400px;
+		height: 124px;
+		background: url("img/logo.jpg") no-repeat;
+		float: left;
+		}
+	#header h1 span { display: none; }
+	#header h2 { padding: 62px 0 0 0; float:right; color: #7A7A7A; font-weight: normal;}
+#search { padding: 15px 45px 11px 21px; background: url("img/searchbg.jpg") no-repeat; height: 76px; }
+	html > body #search .divider { margin: 0 24px 0 0; }
+		#search .divider { margin: 0 15px 0 0; }
+	html > body #search .adv-srch { font-size: 90%; text-align: right; margin: 5px 0 0 0; }
+		#search .adv-srch { font-size: 90%; text-align: right; margin: 4px 15px 0 0; }
+	#search .searchr { margin-top: 22px; }
+html > body #container-findjobs { margin: 0 0 0 15px; width: 432px; background: #fff; }
+#container-findjobs { position: relative; margin: -12px 0 0 15px; width: 431px; background: #fff; }
+	html > body #findjobs { margin: 0; color: #2280D7; padding: 20px 25px 0px 30px; border-right: 1px solid #79B7F0; border-left: 1px solid #79B7F0;}
+	#findjobs { position: relative; color: #2280D7; padding: 20px 30px 0 30px; border-right: 1px solid #79B7F0; border-left: 1px solid #79B7F0;}
+	html > body .bottomjob { margin: 0; height: 15px; background: url("img/bottomsearch.gif") no-repeat; }
+	* html .bottomjob { height: 15px; margin: -6px 0 0 0; background: url("img/bottomsearch.gif") no-repeat; }
+	#findjobs h5 { margin: 15px 0 0 0; padding: 10px 0; border-top: 1px solid #B8D9F7; }
+	
+html > body #jobsearch { float: right; width: 470px; padding: 18px 10px; }
+	#jobsearch { float: right; width: 470px; padding: 18px 2px 18px 10px; }
+	.logos { padding: 25px 0 0 0; }
+	.logos img { margin: 0 14px 0 0; }
+	
+.highlight { margin: 10px 0 0; background: #FFFFCC none repeat scroll 0 0; padding: 10px; text-align: center; border: 1px solid #FFCC33 ; }
+	.highlight h4 { display: inline; }
+	.highlight .free { font-weight: bold; font-size: 92%; color: red; }
+	.highlight .feature-h { font-weight: bold; color: #666; margin: 0 10px; }
+
+#popularsearch, #advsearch, #browsesearch { margin: 15px 0 10px 0; }	
+	.level { margin: 20px 0; border-bottom: 1px solid #A2E539; padding: 0 0 15px 0; }
+	.levelsrch { margin: 0 0 20px 0; border-bottom: 1px solid #F0AB18; padding: 20px 0 15px 0; } 
+	.levelbrowse {  border-top: 3px solid #EC5D82; margin: 0 0 20px 0; padding: 20px 0 15px 0; }
+		.level-last { border: none; }
+	.cols { width: 190px; margin: 0 5px; font-size: 98%; line-height: 1.8em; }
+	.colssrchshort { padding: 1px; width: 260px; margin: 0 5px; font-size: 98%; line-height: 2.2em; }
+	.colssrchlong { width: 490px; margin: 0 5px; font-size: 98%; line-height: 2.2em; }
+	* html .colssrchlong p { margin: 5px 0; }
+	
+#sidebar { float: left; width: 240px; padding: 0 10px 0 0; border-right: 1px solid #F0F0F0; }
+	#sidebar p { line-height: 1.5em; }
+	#sidebar ul.default { margin: 3px 0 0 15px; }
+	#sidebar ul.default li { line-height: 1.8em; list-style-type: disc; list-style-position: inside; }
+	.box-ul { margin: 10px 0; padding: 1px; width: 220px; background: #fff; border: 1px solid #F3E29C; }
+	.box-ul ul { background: #E2E0CE; }
+	.box-ul ul li { line-height: 1.8em; background: #FDF4D2; padding: 2px 15px; border-bottom: 1px solid #F3E29C; }
+	.box-ul ul li a { display: block; }
+	.box-ul ul li:hover { background: #F3E29C; }
+	.box-ul ul li a:hover { color: #7C0404; }
+	.box-ul h4 { background: #F3E29C; color: #7C0404; margin: 0; padding: 5px 15px; }
+	
+	.box-ul2 { margin: 10px 0; padding: 1px; width: 220px; background: #fff; border: 1px solid #AFE5F7; }
+	.box-ul2 ul { background: #E2E0CE; }
+	.box-ul2 ul li { line-height: 1.8em; background: #D9F6FF; padding: 2px 15px; border-bottom: 1px solid #AFE5F7; }
+	.box-ul2 ul li a { display: block; }
+	.box-ul2 ul li:hover { background: #AFE5F7; }
+	.box-ul2 ul li a:hover { color: #257690; }
+	.box-ul2 h4 { background: #AFE5F7; color: #257690; margin: 0; padding: 5px 15px; }
+	
+.content-inside { width: 660px; padding: 10px; float: right; }
+
+.searchresult { margin: 20px 10px; padding: 10px; width: 600px; }
+	.searchresult p { margin: 10px 0; line-height: 1.5em; text-align: justify; border-bottom: 1px solid #91C9F0; padding: 0 5px 15px 8px; }
+	.searchresult h2 { background: #F0F7FB; font-weight: normal; letter-spacing: -1px; padding: 2px 0 5px 8px; border-bottom: 2px solid #91C9F0; border-top: 1px solid #91C9F0; }
+	.searchresult h5 { padding: 0 0 0 8px; margin: 10px 0; font-weight: normal; }
+	.searchresult img.firstone { margin: 0 0 0 8px; }
+	.searchresult span { padding: 0 0 0 8px; }
+	
+#footer  { font-size: 110%; text-align: center; color: #666; margin: 20px 0; padding: 10px; border-top: 1px solid #ccc; }
+	#footer p { font-size: 80%; margin: 8px 0 0 0; }
+	
+/* Recruit Pages ******/
+#recruit { padding: 38px 35px 0 52px; background: url("img/recruit.jpg") no-repeat; height: 512px; }
+.intro-rec { width: 520px; height: 187px; float: left; }
+.taketourbtn { float: right; margin: 60px 0 0 0; }
+.hori-line { margin: 4px 0; border-top: 1px solid #B9BEA5; }
+
+.featurebtn { color: #6C6C67; float: left; width: 101px; height: 160px; margin: 0 70px 0 0; text-align: center; }
+* html .featurebtn { margin: 0 60px 0 0; }
+.featurebtn span { font-size: 89%; }
+.featurebtn a { font-weight: bold; color: #6C6C67; }
+.featurebtn a:hover { text-decoration: none; color: #FF9000; }
+
+.signupbtn, .orderbtn { float: left; width: 171px; height: 158px; background: #B5BA9D; padding: 1px; }
+.signupbg { color: #34362A; background: url("img/signuprecbg.jpg") no-repeat; height: 85px; padding: 20px 0 0 70px; }
+	.orderbg { color: #34362A; background: url("img/orderrecbg.jpg") no-repeat; height: 85px; padding: 20px 0 0 0; }
+.signupbg p { text-align: center; font-size: 130%; font-weight: bold; }
+	.orderbtn p { text-align: center; font-size: 97%; font-weight: bold; margin-left: 70px; }
+	.orderbtn h2.price { color: #AC8132; font-family: Georgia; font-weight: normal; margin: 15px 0 0 20px; }
+	.orderbtn span.number { margin: 0; padding: 0; color: #6CB013; }
+.signupbtn h2, .signupbtn span, .orderbtn h2, .orderbtn span { margin: 0 0 0 20px; color: #303636; }
+.signupbtn span, .orderbtn span { font-size: 90%; }
+.signupbtn a:hover, .orderbtn a:hover { text-decoration: none; color: #FF3500; }
+
+/* Client Area ******/
+
+.uploadcv input, .uploadcv textarea { margin: 10px 0; }
+.uploadcv textarea { width: 300px; height: 200px; }
+
+.savejobs ul { margin: 10px 0; width: 750px; }
+.savejobs ul li { padding: 10px; border-top: 1px solid #ccc;}
+.uploadcv p, .savejobs p { margin: 10px 0; line-height: 1.5em; }
+
+/********************** Tables **********************/
+table { margin: 15px 0; border-collapse: collapse; }
+.simplegrey { width: 426px; }
+	.simplegrey tr td { border-bottom: 1px solid #B9B9B9; padding: 5px 30px; }
+	
+/********************** Forms **********************/	
+
+#search input.textfield { background: transparent #F4FCFF; border: 1px solid #3F8BCC; padding: 3px; margin-top: 4px; width: 363px; height: 22px; }
+input.textlong{ width: 350px; padding: 1px; }
+input.textshort{ width: 250px; padding: 1px; }
+.colssrchlong select { width: 250px; padding: 1px; }
+.content-inside select  { margin: 5px 0; width: 250px; padding: 1px; }
+#postjob textarea, .content-inside textarea { margin: 5px 0; width: 450px; height: 200px; }
+.content-inside input, #postjob input { margin: 5px 0; }
+input.boxy{ padding: 1px; }
+input.addbtn:hover {
+	border: 1px solid #EE9E01;
+	color:#333333;
+	}
+	
+input.addbtn {
+	background:#F4C909 none repeat scroll 0 0;
+	border:1px solid #E2BC10;
+	color:#666666;
+	font-weight:bold;
+	padding:5px 8px;
+	}
+
+/********************** Repetitive styles **********************/
+
+.floatl { float: left; text-align: left; }
+.floatr { float: right; text-align: left; }
+.clearfix { clear: both; }
+.greybg { background: #FEFDFA; }
+.darkbg { background: #DFDFDF; }
+.lightbg { background: #F7F9FA; }
+.warning { border: 1px solid red; padding: 4px; }
+.borderbott { border-bottom: 4px solid #31302D; }
+
+/* Pagination */
+
+div.pagination {
+	padding: 3px;
+	margin: 10px;
+	text-align: center;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #CCCCCC;
+	text-decoration: none; /* no underline */
+	color: #484848;
+}
+
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000099;
+	color: #484848;
+  background-color: #DDDDDD; 
+  border: 1px solid #CCCCCC;
+}
+
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #000099;
+  font-weight: bold; 
+  color: #FFFFFF; 
+  background-color: #34434A;
+  border: 1px solid #34434A;
+	}
+
+div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+		color: #DDD;
+	}
